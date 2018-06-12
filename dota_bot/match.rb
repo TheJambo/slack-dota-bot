@@ -26,8 +26,8 @@ module DotaBot
       20 => { short: 'DM',       long: 'All Random Death Match' },
       21 => { short: '1v1',      long: '1vs1 Solo Mid' },
       22 => { short: 'Ranked',   long: 'Ranked All Pick' },
-      23 => { short: 'Turbo',    long: 'Ranked All Pick' },
-      24 => { short: 'Mutation', long: 'Ranked All Pick' }
+      23 => { short: 'Turbo',    long: 'Turbo' },
+      24 => { short: 'Mutation', long: 'Mutation' }
     }
 
 
