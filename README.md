@@ -16,3 +16,9 @@ Slack Dota Bot requires the following:
 - Clone Slack Dota Bot into a location of your choice
 - Install rubygems and bundler and run `bundle install` inside `/path/to/slack_dota_bot`
 - Add a daily cron job eg: `30 22 * * * cd /path/to/slack_dota_bot && bundle exec ruby runner.rb`
+
+### Upon Dota 2 Update
+- Find a match where the new hero is being used
+- Manually look up the hero ID (http://api.steampowered.com/IDOTA2Match_570/GetMatchDetails/v001/?match_id=3947031756&key=YOURKEYHERE) and find the Hero ID.
+- Add the Hero ID to heroes.yml
+- Add the emoji to /images
