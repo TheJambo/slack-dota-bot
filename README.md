@@ -14,7 +14,7 @@ Slack Dota Bot requires the following:
 ### Server Installation
 - Ensure ruby is installed and is in your PATH
 - Clone Slack Dota Bot into a location of your choice
-- Install rubygems and bundler and run `bundle install` inside `/path/to/slack_dota_bot`
+- Install rubygems and bundler and run `bundle install` inside `/path/to/slack_dota_bot`, `bundle update` may be required.  
 - Add a daily cron job eg: `30 22 * * * cd /path/to/slack_dota_bot && bundle exec ruby runner.rb`
 
 ### Upon Dota 2 Update
